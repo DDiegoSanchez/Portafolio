@@ -1,0 +1,104 @@
+@media screen and (max-width: 930px) {
+    .navegacion a{
+        padding: 20px;
+    }
+    .formacion {
+        flex-direction: column;
+        align-items: center;
+    }
+    .formacion__item{
+        width: 80%;
+        align-items: center;
+    }
+    .formacion__item--titulo,
+    .formacion__item--fecha{
+        text-align: center;
+    }
+    .proyecto__card{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .proyectoInfo{
+        margin-top: 20px;
+    }
+    .proyecto__card--img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        width: 95%;
+    }
+    .barra{
+        flex-direction: column;
+    }
+    .navegacion{
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero{
+        flex-direction: column;
+    }
+
+    .hero__informacion, .sobreMi__parrafo{
+        width: 90%;
+        padding: 0;
+    }
+
+    .hero__informacion--principal,
+    .hero__informacion--secundaria,
+    .hero__informacion--redes{
+        text-align: center;
+    }
+
+    .hero__imagen{
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sobreMi{
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    
+    .sobreMi__img{
+        display: none;
+    }
+
+    .skillsAndhobbies{
+        height: auto;
+    }
+    .skill__card, .hobbies__card{
+        width: 30%;
+    }
+
+    form{
+        width: 80%;
+    }
+    
+    .contacto img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .navegacion{
+        display: none;
+    }
+
+    .hero__imagen img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .skill__card, .hobbies__card{
+        width: 45%;
+        margin: 2%;
+    }
+    .imgAlura{
+        width: 100%;
+        height: auto;
+    }
+}

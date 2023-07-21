@@ -1,0 +1,26 @@
+.formacionAcademica{
+    flex-direction: column;
+}
+
+.formacion{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.formacion__item{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.formacion__item--img{
+    height: 100px;
+}
+
+.formacion__item--titulo{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}

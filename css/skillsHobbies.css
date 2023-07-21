@@ -1,0 +1,34 @@
+.skillsAndhobbies{
+    width: 100%;
+    background: #2d7bd8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.skills, .hobbies{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill__card, .hobbies__card{
+    height: 100px;
+	background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	align-items: center;
+    border-radius: 20px;
+    width: 14%;
+	margin: 1%;
+    margin-bottom: 20px;
+}
+
+.skill__card i,.hobbies__card i{
+    width: 50px;
+    height: 50px;
+    font-size: 45px;
+    text-align: center;
+}

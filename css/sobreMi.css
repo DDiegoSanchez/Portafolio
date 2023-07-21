@@ -1,0 +1,23 @@
+.sobreMi{
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.sobreMi__contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobreMi__img{
+    width: 30%;
+}
+
+.sobreMi__parrafo{
+    width: 50%;
+    padding: 20px;
+    text-align: justify;
+    font-size: 20px;
+    color: black;
+}
