@@ -19,6 +19,7 @@
         align-items: center;
     }
     .proyectoInfo{
+        width: 95%;
         margin-top: 20px;
     }
     .proyecto__card--img{
